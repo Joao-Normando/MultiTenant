@@ -12,8 +12,8 @@ import javax.persistence.*;
 @Setter
 public class Employee {
 
-    @Id                                                     // primary key
-    @GeneratedValue(strategy = GenerationType.IDENTITY)     // auto increment
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "employeeId")
 
     private Long employeeId;

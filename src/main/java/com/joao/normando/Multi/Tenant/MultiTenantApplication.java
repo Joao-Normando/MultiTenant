@@ -21,7 +21,7 @@ import javax.sql.DataSource;
 public class MultiTenantApplication  {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(MultiTenantApplication.class, args);  // it wil start application
+        SpringApplication.run(MultiTenantApplication.class, args);
     }
 
     @Bean
