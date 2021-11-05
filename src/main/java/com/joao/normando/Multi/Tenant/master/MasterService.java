@@ -12,7 +12,7 @@ public class MasterService {
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/demo_database?createDatabaseIfNotExist=true");
         dataSource.setUsername("root");
-        dataSource.setPassword("");
+        dataSource.setPassword("3321");
 
         DriverManagerDataSource dataSource1 = new DriverManagerDataSource();
         dataSource1.setDriverClassName("com.mysql.jdbc.Driver");
